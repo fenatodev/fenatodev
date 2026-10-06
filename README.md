@@ -1,95 +1,93 @@
-## Hi there 👋
-
 # Fernando Nascimento
 
-### Software Developer | AI & Business Automation | Cybersecurity
+**Independent Software Engineer · AI Coding & Agent Evaluation · Code Review · Technical Automation**
 
-Desenvolvedor focado na construção de software, automações e soluções com Inteligência Artificial aplicadas a problemas reais de negócios.
+I build and evaluate software systems with a strong focus on **AI-assisted development, coding agents, debugging, testing, secure automation, and local-first LLM workflows**.
 
-Atualmente desenvolvendo projetos envolvendo:
+My work is centered on turning ambiguous technical problems into reproducible results: inspect the system, identify failure modes, define boundaries, implement the smallest reliable change, and validate it with tests and evidence.
 
-- Software Development
-- AI Agents
-- Business Automation
-- APIs
-- CRM & Lead Automation
-- Cybersecurity
-- DevSecOps
+## Professional focus
 
-## Tech Stack
+- AI coding evaluation and code review
+- Coding-agent and tool-use evaluation
+- Debugging and failure reproduction
+- Test design and regression coverage
+- Backend systems, APIs, and integrations
+- LLM applications and agentic workflows
+- Local-first AI infrastructure
+- Security-conscious automation
 
-**Frontend**
+## Selected projects
 
-HTML • CSS • JavaScript • TypeScript • React
+### [lai-harness](https://github.com/fenatodev/lai-harness)
 
-**Backend**
+Local-first, auditable coding harness for OpenAI-compatible local LLM servers.
 
-Python • FastAPI • Node.js
+The project explores practical engineering problems around coding agents: deterministic repository context, bounded tool use, policy decisions, safe workspaces, review/promotion flows, sandboxed execution, observability, validation gates, and explicit authority boundaries.
 
-**Database**
+**Signals:** Python · testing · code review · agent tooling · sandboxing · security · local LLMs · developer tooling
 
-PostgreSQL • MongoDB
+### [lai-gateway](https://github.com/fenatodev/lai-gateway)
 
-**Infrastructure & Tools**
+Companion gateway and local workbench for the LAI harness.
 
-Git • GitHub • Docker • Linux • WSL
+It separates UI/client channels from execution authority and experiments with explicit authorization, local model routing, controlled integrations, mobile access, and operator-facing workflows.
 
-**Automation & AI**
+**Signals:** Python · APIs · system integration · authorization design · agent UX · local AI
 
-n8n • AI Agents • LLM APIs • Webhooks
+### [business-automation](https://github.com/fenatodev/business-automation)
 
-**Security**
+Reusable backend foundation for business automation, CRM, AI integrations, and operational workflows.
 
-Cybersecurity • Linux • Networking • Web Security • API Security
+The repository is being developed from real operational use cases while keeping the core configurable and separating product logic from external systems and automation engines.
 
----
+**Signals:** Python · FastAPI · APIs · data modeling · integrations · automation · tests
 
-## Current Project
+### [interpreter-workstation](https://github.com/fenatodev/interpreter-workstation)
 
-### AI Business Automation Platform
+Public fork used for hands-on experimentation and integration work around Open Interpreter Workstation.
 
-Construindo uma plataforma de automação empresarial com IA para pequenas empresas.
+This is **not an original project of mine**. I use the fork to study, test, adapt, and validate workstation/agent behavior while preserving upstream attribution.
 
-O projeto envolve:
+## Engineering approach
 
-- atendimento automatizado
-- captação e qualificação de leads
-- CRM
-- agendamentos
-- follow-up
-- pós-venda
-- reativação de clientes
-- automação de marketing
-- agentes de IA
-- integrações com APIs
+I prefer evidence over assumptions:
 
-A plataforma está sendo desenvolvida inicialmente através de casos de uso reais.
+```text
+problem
+→ reproduce
+→ inspect
+→ isolate
+→ implement
+→ test
+→ review
+→ measure
+```
 
----
+For AI-generated code, the same principle applies: a plausible answer is not enough. I look for hidden failure modes, incorrect assumptions, missing tests, unsafe authority boundaries, regressions, and behavior that can be demonstrated rather than merely described.
 
-## Current Learning
+## Core stack
 
-Aprofundando conhecimentos em:
+**Languages:** Python · JavaScript · TypeScript  
+**Backend:** FastAPI · Node.js · REST APIs  
+**Engineering:** Git · GitHub · Linux · Docker · CI/testing · debugging  
+**AI:** LLM applications · coding agents · tool calling · local models · evaluation workflows  
+**Security:** application security · API security · least-authority design · secrets hygiene
 
-- Python
-- FastAPI
-- PostgreSQL
-- Docker
-- TypeScript
-- AI Engineering
-- Business Automation
-- Application Security
+## Current direction
 
----
+I am building a public body of work around:
 
-## Background
+- AI Coding Evaluation
+- Code Review
+- Agent Evaluation
+- Software Testing
+- Technical QA
+- AI/LLM Engineering
 
-Minha experiência combina tecnologia, desenvolvimento web, marketing digital, design, vendas e segurança da informação.
-
-Essa combinação direciona meu trabalho para a criação de soluções que conectem software, automação e necessidades reais de negócios.
-
----
+The goal is to make the repositories themselves demonstrate how I investigate, validate, review, and ship technical work.
 
 ## Contact
 
-LinkedIn: linkedin.com/in/fenatodev
+- LinkedIn: [linkedin.com/in/fenatodev](https://www.linkedin.com/in/fenatodev/)
+- GitHub: [github.com/fenatodev](https://github.com/fenatodev)
