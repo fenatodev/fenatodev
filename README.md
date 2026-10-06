@@ -27,6 +27,14 @@ The project explores practical engineering problems around coding agents: determ
 
 **Signals:** Python · testing · code review · agent tooling · sandboxing · security · local LLMs · developer tooling
 
+### [ai-coding-evaluation](https://github.com/fenatodev/ai-coding-evaluation)
+
+Executable portfolio for AI coding evaluation, code review, debugging, test design, and agent assessment.
+
+It contains synthetic failure cases with intentionally buggy implementations, minimal fixes, reproducible tests, review reports, a scoring rubric, and CI. Current cases cover cross-tenant authorization, concurrent double allocation, and semantic regression in an AI-style refactor.
+
+**Signals:** AI coding evaluation · debugging · code review · adversarial testing · concurrency · security · benchmarks
+
 ### [lai-gateway](https://github.com/fenatodev/lai-gateway)
 
 Companion gateway and local workbench for the LAI harness.
