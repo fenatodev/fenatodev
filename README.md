@@ -31,7 +31,7 @@ The project explores practical engineering problems around coding agents: determ
 
 Executable portfolio for AI coding evaluation, code review, debugging, test design, and agent assessment.
 
-It contains synthetic failure cases with intentionally buggy implementations, minimal fixes, reproducible tests, review reports, a scoring rubric, and CI. Current cases cover cross-tenant authorization, concurrent double allocation, and semantic regression in an AI-style refactor.
+It contains synthetic failure cases with intentionally buggy implementations, minimal fixes, reproducible tests, review reports, a scoring rubric, and CI. Cases cover cross-tenant authorization, concurrency, semantic regression, coding-agent authority traces, and multi-file PR review with idempotency and failure-path analysis.
 
 **Signals:** AI coding evaluation · debugging · code review · adversarial testing · concurrency · security · benchmarks
 
